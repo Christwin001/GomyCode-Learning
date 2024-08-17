@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Grocemerald mart</h1>
+    <div class="cart">
+        <div class="cart-item" id="bread">
+            <img src="./DATA-food/bread.jpg" alt="Bread" class="item-image" >
+            <span class="item-name">Bread</span>
+            <button class="decrease">-</button>
+            <span class="quantity">1</span>
+            <button class="increase">+</button>
+            <span class="item-price">£2</span>
+            <button class="remove">Remove</button>
+            <button class="like">❤️</button>
+        </div>
+        <div class="cart-item" id="cheese">
+            <img src="./DATA-food/cheese.jpg" alt="Cheese" class="item-image">
+            <span class="item-name">Cheese</span>
+            <button class="decrease">-</button>
+            <span class="quantity">1</span>
+            <button class="increase">+</button>
+            <span class="item-price">£5</span>
+            <button class="remove">Remove</button>
+            <button class="like">❤️</button>
+        </div>
+        <div class="cart-item" id="milk">
+            <img src="./DATA-food/milk.jpg" alt="Milk" class="item-image">
+            <span class="item-name">Milk</span>
+            <button class="decrease">-</button>
+            <span class="quantity">1</span>
+            <button class="increase">+</button>
+            <span class="item-price">£3</span>
+            <button class="remove">Remove</button>
+            <button class="like">❤️</button>
+        </div>
+        <div class="total">
+            Total Price: <span id="total-price">£10</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

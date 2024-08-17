@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+}
+
+
+
+.cart {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.item-image{
+    width: 500px;
+    height: 300px;
+    flex-shrink: 0;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+button.like {
+    color: red;
+}
+
+.total {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 20px;
+}
